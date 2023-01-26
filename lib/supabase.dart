@@ -58,7 +58,7 @@ class SupabaseManager {
   ) async {
     await client.auth.resetPasswordForEmail(
       userEmail,
-      //redirectTo: "io.supabase.reo_beta://reset-password/",
+      //redirectTo: "io.supabase.test_app_supabase://reset-password/",
     );
   }
 
